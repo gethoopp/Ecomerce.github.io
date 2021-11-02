@@ -1,0 +1,41 @@
+.handle-counter { overflow: hidden; }
+
+.handle-counter .counter-minus,  .handle-counter .counter-plus,  .handle-counter input {
+  float: left;
+  text-align: center;
+}
+
+.handle-counter .counter-minus,  .handle-counter .counter-plus { text-align: center; }
+
+.handle-counter input {
+  width: 100px;
+  border: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 4px;
+  ;
+}
+
+.btn {
+  padding: 4px 12px;
+  box-shadow: none;
+  color: #fff;
+}
+
+.btn:disabled, .btn:disabled:hover {
+  background-color: darkgrey;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.btn-primary { background-color: #e79a0c; }
+
+.btn-primary:hover, .btn-primary:focus { background-color: #c77d0f; }
+div#handleCounter {
+    margin-left: 727px;
+    margin-top: -27px;
+}
+.btn-primary:hover{
+    color: white;
+    box-shadow: none;
+}

@@ -1,0 +1,268 @@
+
+*{
+    outline: none;
+}
+
+html , body {
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+ul.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 421px;
+    margin-top: 38px;
+    margin-left: 292px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+ li.nav-bar{
+    color: rgb(53, 49, 49);
+   
+   
+} 
+ li.nav-bar:hover{
+   color: rgb(229, 188, 188);
+ 
+}
+
+h4.left {
+    font-size: 2.25rem;
+    margin-top: -44px;
+    margin-left: 108px;
+    font-style: oblique;
+    font-weight: 800;
+}
+
+img.nav-img {
+    position: absolute;
+    padding-left: 1303px;
+}
+
+img.nav-BG {
+    height: 32px;
+    position: absolute;
+    margin-left: 696px;
+    margin-top: -7px;
+}
+
+img.isi {
+    height: 300px;
+    margin-left: 177px;
+    margin-top: 31px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px rgb(53, 49, 49);
+}
+
+h6.teks {
+    position: absolute;
+    margin-top: -291px;
+    margin-left: 696px;
+    font-family: cursive;
+    font-weight: 900;
+    color: orange;
+}
+
+h1.teks2 {
+    position: absolute;
+    margin-top: -271px;
+    margin-left: 693px;
+    width: 400px;
+    font-family: poppins;
+}
+
+article.isi1 {
+    width: 454px;
+    position: absolute;
+    margin-top: -148px;
+    margin-left: 696px;
+}
+
+li {
+    list-style: none;
+}
+
+.BG{
+    position: fixed;
+    top: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    left: 0;
+    background-color: rgba(0.0.0.0.0);
+    z-index: 9999;
+    transition: 0.4s all ease-in;
+    text-align: center;
+    padding: 100px 0 ;
+}
+
+.BG:target{
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(83, 80, 80, 0.753)
+}
+
+.BG img {
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow:0 1 2 0 rgb(229, 188, 188);
+}
+
+.BG:target img {
+    animation: Animasi .3s;
+}
+
+.BG:target span{
+    animation: teks 0.8s;
+}
+span {
+    position: absolute;
+    font-size: 55px;
+    margin-top: 193px;
+    margin-left: 42px;
+    font-family: popp;
+    color: wheat;
+}
+
+ul.second {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    display: flex;
+}
+
+img.active {
+    margin-left: 51px;
+    border: 3px solid orange;
+    border-radius: 6px;
+    opacity: 0.6;
+}
+
+img.\31 {
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 3px;
+    border-radius: 7px;
+}
+
+img.\31:hover{
+      border: 1px solid orange;
+}
+
+img.\32 {
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    margin-left: 128px;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+button.btn-close {
+    position: absolute;
+    height: 13px;
+    margin-top: -40px;
+}
+
+
+.BG1{
+    position: fixed;
+    top: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    left: 0;
+    background-color: rgba(0.0.0.0.0);
+    z-index: 9999;
+    transition: 0.3s all ease-in;
+    text-align: center;
+    padding: 100px 0 ;
+}
+
+.BG1:target{
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(83, 80, 80, 0.753)
+}
+
+.BG1 img {
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow:0 1 2 0 rgb(229, 188, 188);
+}
+
+.BG1:target img {
+    animation: Animasi .3s;
+}
+
+.BG1:target span{
+    animation: teks 0.8s;
+}
+img.\33 {
+    position: absolute;
+    height: 64px;
+    width: 64px;
+    margin-left: 202px;
+    border-radius: 9px;
+    margin-top: 2px;
+}
+
+
+button.tombol.btn.btn-primary {
+    position: absolute;
+    margin-left: 924px;
+    margin-top: -38px;
+    background-color: #ff7600;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    height: 50px;
+    width: 161px;
+}
+
+btn-primary:focus{
+    box-shadow: rgb(255, 230, 0);
+    outline: rgba(255, 68, 0, 0.808);
+}
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(243, 240, 55, 0.911)
+}
+
+
+@keyframes Animasi {
+
+     0%{
+        
+         opacity: 0;
+         transform: scale(0);
+     }
+     100% {
+         transform: scale(1);
+         opacity: 1;
+
+     }
+} 
+
+@keyframes teks {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
